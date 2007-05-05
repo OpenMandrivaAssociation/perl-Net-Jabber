@@ -1,6 +1,6 @@
 %define	module	Net-Jabber
 %define version 2.0
-%define release 1mdk
+%define release %mkrel 3
 
 Summary:	%{module} perl module
 Name:		perl-%{module}
