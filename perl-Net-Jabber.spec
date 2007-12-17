@@ -12,7 +12,6 @@ Source:		http://search.cpan.org/CPAN/authors/id/R/RE/REATMON/%{module}-%{version
 URL:		http://search.cpan.org/dist/%{module}
 Buildrequires:	perl-devel
 Buildrequires:	perl-Net-XMPP
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 BuildArch:	noarch
 
 %description
