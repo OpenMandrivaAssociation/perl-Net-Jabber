@@ -3,7 +3,7 @@
 Summary:	%{module} perl module
 Name:		perl-%{module}
 Version:	2.0
-Release:	11
+Release:	12
 License:	LGPLv2
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{module}
