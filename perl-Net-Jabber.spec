@@ -1,13 +1,14 @@
 %define	module	Net-Jabber
+%define upstream_version 2.0
 
 Summary:	%{module} perl module
 Name:		perl-%{module}
-Version:	2.0
-Release:	15
+Version:	%perl_convert_version %{upstream_version}
+Release:	16
 License:	LGPLv2
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{module}
-Source0:	http://search.cpan.org/CPAN/authors/id/R/RE/REATMON/%{module}-%{version}.tar.bz2
+Source0:	http://search.cpan.org/CPAN/authors/id/R/RE/REATMON/%{module}-%{upstream_version}.tar.bz2
 BuildArch:	noarch
 Buildrequires:	perl-devel
 Buildrequires:	perl-Net-XMPP
@@ -19,7 +20,7 @@ interface to writing anything from a full client to a simple protocol
 tester.
 
 %prep
-%setup -qn %{module}-%{version}
+%setup -qn %{module}-%{upstream_version}
 
 %build
 %__perl Makefile.PL INSTALLDIRS=vendor
