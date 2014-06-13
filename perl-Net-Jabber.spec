@@ -4,7 +4,7 @@
 Summary:	%{module} perl module
 Name:		perl-%{module}
 Version:	%perl_convert_version %{upstream_version}
-Release:	16
+Release:	17
 License:	LGPLv2
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{module}
