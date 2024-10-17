@@ -7,7 +7,7 @@ Version:	%perl_convert_version %{upstream_version}
 Release:	22
 License:	LGPLv2
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{module}
+Url:		https://search.cpan.org/dist/%{module}
 Source0:	http://search.cpan.org/CPAN/authors/id/R/RE/REATMON/%{module}-%{upstream_version}.tar.bz2
 BuildArch:	noarch
 Buildrequires:	perl-devel
